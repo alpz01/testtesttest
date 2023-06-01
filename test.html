@@ -1,0 +1,301 @@
+<b:widget cond='data:view.isSearch' id='BlogSearch3' locked='true' title='Filter' type='BlogSearch' version='2' visible='true'>
+          <b:includable id='main'>
+            <b:attr name='class' value='BlogSearch'/>
+            <b:include name='content'/>
+          </b:includable>
+          <b:includable id='content'>
+            <section class='quickfilter' role='search'>
+              <div class='filters'>
+                <div class='opt1'>
+                  <!-- List Label -->
+                  <div class='dropdown filter'>
+                    <input class='simple hidden chk' id='Genre' name='genre' type='checkbox'/>
+                    <label class='simple dropdown-toggle' data-toggle='dropdown' for='Genre'> Genre <span class='simple value' data-label-placement='true'>All</span> </label>
+                    <ul class='simple dropdown-menu lg c4'>
+                      <li>
+                        <input class='hidden genre' id='Action' type='checkbox' value='Action'/>
+                        <label for='Action'>Action</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Adventurer' type='checkbox' value='Adventurer'/>
+                        <label for='Adventurer'>Adventurer</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Comedy' type='checkbox' value='Comedy'/>
+                        <label for='Comedy'>Comedy</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Dementia' type='checkbox' value='Dementia'/>
+                        <label for='Dementia'>Dementia</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Demons' type='checkbox' value='Demons'/>
+                        <label for='Demons'>Demons</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Drama' type='checkbox' value='Drama'/>
+                        <label for='Drama'>Drama</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Ecchi' type='checkbox' value='Ecchi'/>
+                        <label for='Ecchi'>Ecchi</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Fantasy' type='checkbox' value='Fantasy'/>
+                        <label for='Fantasy'>Fantasy</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Game' type='checkbox' value='Game'/>
+                        <label for='Game'>Game</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Harem' type='checkbox' value='Harem'/>
+                        <label for='Harem'>Harem</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Historical' type='checkbox' value='Historical'/>
+                        <label for='Historical'>Historical</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Horror' type='checkbox' value='Horror'/>
+                        <label for='Horror'>Horror</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Josei' type='checkbox' value='Josei'/>
+                        <label for='Josei'>Josei</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Magic' type='checkbox' value='Magic'/>
+                        <label for='Magic'>Magic</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Martial Arts' type='checkbox' value='Martial Arts'/>
+                        <label for='Martial Arts'>Martial Arts</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Mecha' type='checkbox' value='Mecha'/>
+                        <label for='Mecha'>Mecha</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Military' type='checkbox' value='Military'/>
+                        <label for='Military'>Military</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Music' type='checkbox' value='Music'/>
+                        <label for='Music'>Music</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Mystery' type='checkbox' value='Mystery'/>
+                        <label for='Mystery'>Mystery</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Parody' type='checkbox' value='Parody'/>
+                        <label for='Parody'>Parody</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Police' type='checkbox' value='Police'/>
+                        <label for='Police'>Police</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Psychological' type='checkbox' value='Psychological'/>
+                        <label for='Psychological'>Psychological</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Romance' type='checkbox' value='Romance'/>
+                        <label for='Romance'>Romance</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Samurai' type='checkbox' value='Samurai'/>
+                        <label for='Samurai'>Samurai</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='School' type='checkbox' value='School'/>
+                        <label for='School'>School</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Sci-Fi' type='checkbox' value='Sci-Fi'/>
+                        <label for='Sci-Fi'>Sci-Fi</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Seinen' type='checkbox' value='Seinen'/>
+                        <label for='Seinen'>Seinen</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Shoujo' type='checkbox' value='Shoujo'/>
+                        <label for='Shoujo'>Shoujo</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Shoujo Ai' type='checkbox' value='Shoujo Ai'/>
+                        <label for='Shoujo Ai'>Shoujo Ai</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Shounen' type='checkbox' value='Shounen'/>
+                        <label for='Shounen'>Shounen</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Slice of Life' type='checkbox' value='Slice of Life'/>
+                        <label for='Slice of Life'>Slice of Life</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Space' type='checkbox' value='Space'/>
+                        <label for='Space'>Space</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Sports' type='checkbox' value='Sports'/>
+                        <label for='Sports'>Sports</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Super Power' type='checkbox' value='Super Power'/>
+                        <label for='Super Power'>Super Power</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Supernatural' type='checkbox' value='Supernatural'/>
+                        <label for='Supernatural'>Supernatural</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Thriller' type='checkbox' value='Thriller'/>
+                        <label for='Thriller'>Thriller</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Vampire' type='checkbox' value='Vampire'/>
+                        <label for='Vampire'>Vampire</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Work Life' type='checkbox' value='Work Life'/>
+                        <label for='Work Life'>Work Life</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Yuri' type='checkbox' value='Yuri'/>
+                        <label for='Yuri'>Yuri</label>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class='dropdown filter'>
+                    <input class='simple hidden chk' id='Status' name='status' type='checkbox'/>
+                    <label class='simple dropdown-toggle' data-toggle='dropdown' for='Status'> Status <span class='simple value' data-label-placement='true'>All</span> </label>
+                    <ul class='simple dropdown-menu c1'>
+                      <li>
+                        <input class='hidden genre' id='Ongoing' type='checkbox' value='Ongoing'/>
+                        <label for='Ongoing'>Ongoing</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Completed' type='checkbox' value='Completed'/>
+                        <label for='Completed'>Completed</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Dropped' type='checkbox' value='Dropped'/>
+                        <label for='Dropped'>Dropped</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Upcoming' type='checkbox' value='Upcoming'/>
+                        <label for='Upcoming'>Upcoming</label>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class='dropdown filter'>
+                    <input class='simple hidden chk' id='Type' name='type' type='checkbox'/>
+                    <label class='simple dropdown-toggle' data-toggle='dropdown' for='Type'> Type <span class='simple value' data-label-placement='true'>All</span> </label>
+                    <ul class='simple dropdown-menu c1'>
+                      <li>
+                        <input class='hidden genre' id='Movie' type='checkbox' value='Movie'/>
+                        <label for='Movie'>Movie</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='TV' type='checkbox' value='TV'/>
+                        <label for='TV'>TV</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='OVA' type='checkbox' value='OVA'/>
+                        <label for='OVA'>OVA</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='ONA' type='checkbox' value='ONA'/>
+                        <label for='ONA'>ONA</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Special' type='checkbox' value='Special'/>
+                        <label for='Special'>Special</label>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class='dropdown filter'>
+                    <input class='simple hidden chk' id='Lang' name='lang' type='checkbox'/>
+                    <label class='simple dropdown-toggle' data-toggle='dropdown' for='Lang'> Language <span class='simple value' data-label-placement='true'>All</span> </label>
+                    <ul class='simple dropdown-menu c1'>
+                      <li>
+                        <input class='hidden genre' id='Sub' type='checkbox' value='Sub'/>
+                        <label for='Sub'>Sub</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Dub' type='checkbox' value='Dub'/>
+                        <label for='Dub'>Dub</label>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class='dropdown filter'>
+                    <input class='simple hidden chk' id='Country' name='country' type='checkbox'/>
+                    <label class='simple dropdown-toggle' data-toggle='dropdown' for='Country'> Country <span class='simple value' data-label-placement='true'>All</span> </label>
+                    <ul class='simple dropdown-menu c1'>
+                      <li>
+                        <input class='hidden genre' id='Japan' type='checkbox' value='Japan'/>
+                        <label for='Japan'>Japan</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='Chinese' type='checkbox' value='Chinese'/>
+                        <label for='Chinese'>Chinese</label>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class='dropdown filter'>
+                    <input class='simple hidden chk' id='Quality' name='Quality' type='checkbox'/>
+                    <label class='simple dropdown-toggle' data-toggle='dropdown' for='Quality'> Quality <span class='simple value' data-label-placement='true'>All</span> </label>
+                    <ul class='simple dropdown-menu c1'>
+                      <li>
+                        <input class='hidden genre' id='Webrip' type='checkbox' value='Webrip'/>
+                        <label for='Webrip'>Webrip</label>
+                      </li>
+                      <li>
+                        <input class='hidden genre' id='BD' type='checkbox' value='BD'/>
+                        <label for='BD'>BD</label>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+				<div class='opt2'>
+                <b:include name='searchForm'/>
+                <button class='submit' type='submit'><svg aria-hidden='true' height='1em' preserveAspectRatio='xMidYMid meet' role='img' viewBox='0 0 512 512' width='1em' xmlns='http://www.w3.org/2000/svg'><path d='M487.976 0H24.028C2.71 0-8.047 25.866 7.058 40.971L192 225.941V432c0 7.831 3.821 15.17 10.237 19.662l80 55.98C298.02 518.69 320 507.493 320 487.98V225.941l184.947-184.97C520.021 25.896 509.338 0 487.976 0z' fill='currentColor'/></svg>Filter  <span class='count'> </span></button>
+                <!-- Hasil -->
+                <div id='result'/>
+                </div>
+<script>/*<![CDATA[*/
+var num = 15;
+var newtab = false;
+$('.submit').click(function(){
+var validator = document.getElementsByClassName('genre');
+var o = [];
+for(var i=0;i<validator.length;i++){
+   if(validator[i].checked){
+    o.push(validator[i].value)
+	}
+}
+window.open(location.protocol+ '//' + location.hostname + '/search/label/' + o.join('+') + '?&max-results=' + num, newtab == true ? '_blank' : '_self');
+});
+/*]]>*/</script>
+                
+              </div>
+            </section>
+</b:includable>
+          <b:includable id='searchForm'>
+  <form expr:action='data:blog.searchUrl'>
+    <b:attr cond='not data:view.isPreview' name='target' value='_top'/>
+    <b:include name='urlParamsAsFormInput'/>
+    <div class='searchf filter'>
+      <input autocomplete='off' expr:aria-label='data:messages.searchThisBlog' expr:placeholder='data:messages.searchThisBlog' expr:value='data:view.isSearch ? data:view.search.query.escaped : &quot;&quot;' name='q'/>
+    </div>
+    <b:include name='searchSubmit'/>
+  </form>
+</b:includable>
+          <b:includable id='searchSubmit'>
+  
+</b:includable>
+        </b:widget>
